@@ -1,0 +1,140 @@
+/* Reset some default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* Set a background color for the whole page */
+  body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    display: flex; 
+    justify-content: left;
+    justify-content: space-between;
+  }
+  
+  header h1 {
+    background-color: lime;
+    padding: 10px;
+    padding-left: 180px;
+    
+  }
+
+  /* Style navigation links */
+  nav ul {
+    list-style: none; 
+  }
+  
+    .navbar {
+        align-items: center;
+        display: flex;
+     }
+
+  nav li {
+    display: inline;
+    padding: 5px;
+    margin: 0 15px;
+  }
+
+  
+ .button:hover {
+    background-color: aqua;
+    color: white;
+ }
+
+  nav a {
+    color: whitesmoke;
+  }
+  
+  /* Style the main content */
+  
+p{
+  padding: 10px;
+}
+
+main h1 {
+  text-align: right;
+  padding: 30px;
+  font-size: 32px;
+}
+
+  /* Style section titles */
+  .section-title {
+    text-align: left;
+    border-right: 2px solid black;
+    padding: 5px;
+    width: 20%;
+  }
+
+  .section-content {
+    width: 80%;
+    padding: 20px;
+  }
+  
+  /* Style individual sections */
+  .flex {
+    display:flex;
+    }    
+
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+
+  /* Style the hero section */
+  .hero {
+    background-image: url(../assets/images/504543.jpg);
+    background-position: center;
+    background-size: contain;
+    color:white ;
+    text-align: right;
+    padding: 50px 0;
+    height: 150px;
+    display: flex ;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .hero h2 {
+    padding: 10px;
+    background-color: rgb(143, 66, 66);
+
+  } 
+  
+/*style the about me section*/
+
+/* Style the work section */
+.projects{
+  display:flex; 
+}
+
+
+.Surf{
+  
+}
+
+
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center; 
+    padding: 20px 0;
+  }
+  
+  /* Add media query for responsiveness */
+  @media (max-width: 768px) {
+    section {
+      margin: 0 10px;
+    }
+  }
+  
