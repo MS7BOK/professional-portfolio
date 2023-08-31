@@ -12,3 +12,6 @@ Screenshots:
 Link of deployed project:
 [https://ms7bok.github.io/professional-portfolio/](https://ms7bok.github.io/professional-portfolio/)
 
+Link of the GitHub project:
+[https://github.com/MS7BOK/professional-portfolio/](https://github.com/MS7BOK/professional-portfolio)
+
