@@ -1,167 +1,260 @@
 /* Reset some default margin and padding */
 body, h1, h2, p, ul, li {
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  /* Set a background color for the whole page */
-  body {
-    background-color: #ffffff;
-    font-family: Arial, sans-serif;
-  }
-  
-  /* Style the header */
-  header {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    display: flex; 
-    justify-content: left;
-    justify-content: space-between;
-  }
-  
-  header h1 {
-    background-color: lime;
-    padding: 10px;
-    padding-left: 180px;
-    
-  }
+  margin: 0px;
+  padding: 0px;
+}
 
-  /* Style navigation links */
-  nav ul {
-    list-style: none; 
-  }
-  
-    .navbar {
-        align-items: center;
-        display: flex;
-     }
+/* Global styles */
+a {
+	text-underline-offset: 6px;
+  text-decoration-thickness: 3px;
+}
 
-  nav li {
-    display: inline;
-    padding: 5px;
-    margin: 0 15px;
-  }
+/* Set a background color for the whole page */
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
 
-  
- .button:hover {
-    background-color: aqua;
-    color: white;
- }
+/* Style the header */
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  display: flex; 
+  justify-content: left;
+  justify-content: space-between;
+}
 
-  nav a {
-    color: whitesmoke;
-  }
-  
-  /* Style the main content */
-  
-p{
+header h1 {
+  background-color: darkgray;
   padding: 10px;
+  padding-left: 180px;
+  
+}
+
+/* Style navigation links */
+nav ul {
+  list-style: none; 
+}
+
+  .navbar {
+      align-items: center;
+      display: flex;
+   }
+
+nav li {
+  display: inline;
+  padding: 5px;
+  margin: 0 15px;
+}
+
+
+.button:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+nav a {
+  color: whitesmoke;
+}
+
+/* Style the main content */
+
+p{
+padding: 10px;
 }
 
 main h1 {
-  text-align: right;
-  padding: 30px;
-  font-size: 32px;
+text-align: right;
+padding: 30px;
+font-size: 32px;
 }
 
-  /* Style section titles */
-  .section-title {
-    text-align: left;
-    border-right: 2px solid black;
-    padding: 5px;
-    width: 20%;
-  }
+/* Style section titles */
+.section-title {
+  text-align: left;
+  border-right: 2px solid black;
+  padding: 5px;
+  width: 20%;
+}
 
-  .section-content {
-    width: 80%;
-    padding: 20px;
-  }
-  
-  /* Style individual sections */
-  .flex {
-    display:flex;
-    }    
+.section-content {
+  width: 80%;
+  padding: 20px;
+}
 
-  section {
-    padding: 20px;
-    margin-bottom: 20px;
-  }
+/* Style individual sections */
+.flex {
+  display:flex;
+  }    
+
+section {
+  padding: 20px;
+
+}
 
 
-  /* Style the hero section */
-  .hero {
-    background-image: url(../assets/images/hero.jpg);
-    background-position: center;
-    background-size: contain;
-    color:white ;
-    text-align: right;
-    padding: 50px 0;
-    height: 150px;
-    display: flex ;
-    justify-content: flex-end;
-    align-items: flex-end;
-  }
+/* Style the hero section */
+.hero {
+  background-image: url(../assets/images/hero.jpg);
+  background-position: center;
+  background-size: contain;
+  color:white ;
+  text-align: right;
+  padding: 50px 0;
+  height: 150px;
+  display: flex ;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
 
-  .hero h2 {
-    padding: 10px;
-    background-color: rgb(143, 66, 66);
+.hero h2 {
+  padding: 10px;
+  background-color: darkgray;
 
-  } 
-  
+} 
+
 /*style the about me section*/
 
 /* Style the work section */
 .projects{
-  display:flex; 
-  flex-wrap: wrap;
+display:flex; 
+flex-wrap: wrap;
+margin: 25px;
+justify-content: space-between;
 }
 
+.projects section {
+  padding: 0px;
+}
+
+.text-box{
+background-color: darkblue;
+color: skyblue;
+width:fit-content;
+padding: 6px;
+display: flex;
+flex-direction: column;
+height: max-content;
+align-self: flex-end;
+margin-bottom: 10px;
+}
+
+.projects a {
+  text-decoration: none;
+  background-color: darkblue;
+  color: skyblue;
+  width:fit-content;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  align-self: flex-end;
+  margin-bottom: 10px;
+  }
+
+.text-box p {
+padding: 0%;
+}
 
 .Surf{
-  border: 1px solid black;
-  flex: 1 1 100%;
+border: 3px solid darkblue;
+flex: 1 1 100%;
 height: 300px;
-background-image: url(../assets/images/wave.jpg);
+background-image: url(../assets/images/Deep_Blue_Sea.webp);
 background-repeat: no-repeat;
 background-size: 150% 100%; 
 background-position: center;
-
+margin: 10px;
 }
 
+
 .Led{
-  border: 1px solid black;
-  flex: 0 1 calc(45.5%);
+border: 3px solid darkblue;
+flex: 0 1 calc(50% - 30px);
+background-image: url(../assets/images/LedWall.jpg);
+background-position: center;
+background-size: 90%;
+margin: 10px;
+height: 100px;
+
 }
 
 .Calculator{
-  border: 1px solid black;
-  flex: 0 1 calc(45.5%);
+border: 3px solid darkblue;
+flex: 0 1 calc(50% - 30px);
+background-image: url(../assets/images/calculator.jpg);
+background-position: center;
+background-size: 87%;
+margin: 10px;
+height: 100px;
+
 }
 
 .Pastel{
-  border: 1px solid black;
-  flex: 0 1 calc(45.5%);
+border: 3px solid darkblue;
+flex: 0 1 calc(50% - 30px);
+background-image: url(../assets/images/Puzzel.jpg);
+background-position: center;
+background-size: 80%;
+margin: 10px;
+height: 100px;
+
 }
 
 .Run{
-  border: 1px solid black;
-  flex: 0 1 calc(45.5%);
+border: 3px solid darkblue;
+flex: 0 1 calc(50% - 30px);
+background-image: url(../assets/images/run.jpg);
+background-position: center;
+background-size: 80%;
+margin: 10px;
+height: 100px;
+
 }
 
-  /* Style the footer */
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center; 
-    padding: 20px 0;
+.shadow { /*so that sections only pop visually when you hover over them*/
+  opacity: 0.5;
+}
+
+.shadow:hover {
+  opacity: 1; /* removes faintness when pointer is hovering over section */
+}
+
+
+
+/* style for the new contact section */
+#contact ul {
+  list-style: none; 
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.contact-info li {
+  display: inline;
+  padding: 10px;
   }
-  
-  /* Add media query for responsiveness */
-  @media (max-width: 768px) {
-    section {
-      margin: 0 10px;
-    }
+
+  .contact-info a {
+    color: black;
   }
-  
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center; 
+  padding: 20px 0;
+}
+
+/* Add media query for responsiveness */
+@media (max-width: 768px) {
+
+
+}
