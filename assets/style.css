@@ -185,7 +185,7 @@ height: 100px;
 .Calculator{
 border: 3px solid darkblue;
 flex: 0 1 calc(50% - 30px);
-background-image: url(../assets/images/calculator.jpg);
+background-image: url(../assets/images/Calculator.jpg);
 background-position: center;
 background-size: 87%;
 margin: 10px;
