@@ -254,7 +254,40 @@ footer {
 }
 
 /* Add media query for responsiveness */
+@media (max-width: 968px) {
+  header h1 {
+    padding-left: 80px;
+  }
+  .section-title {
+    width: 30%;
+  }
+  
+  .section-content {
+    width: 70%;
+    padding: 10px;
+  }
+}
 @media (max-width: 768px) {
 
+  .Surf, .Led, .Calculator, .Pastel, .Run {
+    flex: 1 1 100%;
+    height: 150px;
+  }
+  .Surf {
+    height: 300px
+  }
+  .navbar a {
+    margin: 4px;
+  }
+  header h1 {
+    padding-left: 10px;
+    font-size: 24px
+  }
+
+
+  main h1 {
+    font-size: 30px;
+    padding: 3px;
+  }
 
 }
